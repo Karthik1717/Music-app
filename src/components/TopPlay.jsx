@@ -68,6 +68,7 @@ const TopPlay = () => {
 	useEffect(() => {
 		divRef.current.scrollIntoView({ behavior: "smooth" });
 	});
+	console.log("Hello");
 
 	const topPlays = data
 		?.slice(0, 1)
